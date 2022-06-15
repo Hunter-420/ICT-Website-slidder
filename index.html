@@ -1,265 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Example</title>
+  </head>
+  <body>
+    <!-- Example Code -->
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slider for event</title>
-    <meta name="description" content="This is a slider to add events of ICT club" />
-    <meta name="author" content="Hunter" />
-    <!--Hunter (coreQ)-->
-    <link rel="stylesheet" type="text/css" href="demo.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+          aria-current="true"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class=""
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class=""
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+            width="800"
+            height="400"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: First slide"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="200%" fill="#f5f5f5"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">First slide</text>
+          </svg>
 
-<body>
-
-
-    <div class="ScriptTop">
-        <div class="rt-container">
-            <div class="col-rt-4" id="float-right">
-
-            </div>
-
-            <div class="col-rt-2">
-                <ul>
-                    <li><a href="https://facebook.com/Hunter-420">see more</a></li>
-                    <!--   <li><a href="https://codeconvey.com/pure-css-slideshow-autoplay-without-javascript">Back to the Article</a></li> -->
-                </ul>
-            </div>
-
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ongoing Projects</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
         </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+            width="800"
+            height="400"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Second slide"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="200%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#bbb" dy=".3em">Second slide</text>
+          </svg>
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Upcoming Projects</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+            width="800"
+            height="400"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Third slide"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="200%" fill="#e5e5e5"></rect>
+            <text x="50%" y="50%" fill="#999" dy=".3em">Third slide</text>
+          </svg>
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Previous Projects</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
-    <header class="ScriptHeader">
-        <div class="rt-container">
-            <div class="col-rt-12">
-                <div class="rt-heading">
-                    <h1>EVENTS</h1>
-                    <h2>Upcoming Projects</h2>
-                </div>
-            </div>
+    <!-- End Example Code -->
+
+    <!-- bich ko -->
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row"><hr>
+        <div class="col-lg-4 ">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777"></rect>
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Ongoing</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
-    </header>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777"></rect>
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
 
-    <section>
-        <div class="rt-container">
-            <div class="col-rt-12">
-                <!-- Slider -->
-                <div id="slider">
-                    <div class="slides">
-                        <div class="slider">
-                            <div class="legend"></div>
-                            <div class="content">
-                                <div class="content-txt">
-                                    <h2>Lorem ipsum dolor</h2>
-                                    <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                </div>
-                            </div>
-                            <div class="image"> <img src="img/1.jpg"> </div>
-                        </div>
-                        <div class="slider">
-                            <div class="legend"></div>
-                            <div class="content">
-                                <div class="content-txt">
-                                    <h2>Lorem ipsum dolor</h2>
-                                    <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                </div>
-                            </div>
-                            <div class="image"> <img src="img/2.jpg"> </div>
-                        </div>
-                        <div class="slider">
-                            <div class="legend"></div>
-                            <div class="content">
-                                <div class="content-txt">
-                                    <h2>Lorem ipsum dolor</h2>
-                                    <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                </div>
-                            </div>
-                            <div class="image"> <img src="img/3.jpg"> </div>
-                        </div>
-                        <div class="slider">
-                            <div class="legend"></div>
-                            <div class="content">
-                                <div class="content-txt">
-                                    <h2>Lorem ipsum dolor</h2>
-                                    <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                </div>
-                            </div>
-                            <div class="image"> <img src="img/4.jpg"> </div>
-                        </div>
-                    </div>
-
-                    <div class="ScriptTop">
-                        <div class="rt-container">
-                            <div class="col-rt-4" id="float-right">
-
-                            </div>
-
-                            <div class="col-rt-2">
-                                <ul>
-                                    <li><a href="https://facebook.com/Hunter-420">see more</a></li>
-                                    <!--   <li><a href="https://codeconvey.com/pure-css-slideshow-autoplay-without-javascript">Back to the Article</a></li> -->
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <div class="switch">
-                        <ul>
-                            <li>
-                                <div class="on"></div>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+          <h2 class="fw-normal">Upcoming</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
-    </section>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777"></rect>
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>slider for event</title>
-        <meta name="description" content="This is a slider to add events of ICT club" />
-        <meta name="author" content="Hunter" />
-        <!--Hunter (coreQ)-->
-        <link rel="stylesheet" type="text/css" href="demo.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
-
-    <body>
-
-
-        <div class="ScriptTop">
-            <div class="rt-container">
-                <div class="col-rt-4" id="float-right">
-
-
-
-
-                </div>
-
-
-
-                <div class="col-rt-2">
-                    <ul>
-                        <li><a href="https://github.com/Hunter-420">see more</a></li>
-                        <!-- <li><a href="https://codeconvey.com/pure-css-slideshow-autoplay-without-javascript">Back to the Article</a></li> -->
-                    </ul>
-                </div>
-            </div>
+          <h2 class="fw-normal">Previous</h2>
+          <p>
+            And lastly this, the third column of representative placeholder
+            content.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      </div>
+      </body>
+      <!-- /.row -->
 
-        <header class="ScriptHeader">
-            <div class="rt-container">
-                <div class="col-rt-12">
-                    <div class="rt-heading">
-                        <h1>EVENTS</h1>
-                        <h2>Upcoming Projects</h2>
-                    </div>
-                </div>
-            </div>
-        </header>
+      <!-- START THE FEATURETTES -->
 
+      <hr class="featurette-divider" />
 
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
 
+      <hr class="featurette-divider" />
 
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Oh yeah, it’s that good.
+            <span class="text-muted">See for yourself.</span>
+          </h2>
+          <p class="lead">
+            Another featurette? Of course. More placeholder content here to give
+            you an idea of how this layout would work with some actual
+            real-world content in place.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
 
-        <section>
-            <div class="rt-container">
-                <div class="col-rt-12">
-                    <!-- Slider -->
-                    <div id="slider">
-                        <div class="slides">
-                            <div class="slider">
-                                <div class="legend"></div>
-                                <div class="content">
-                                    <div class="content-txt">
-                                        <h2>Lorem ipsum dolor</h2>
-                                        <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                    </div>
-                                </div>
+      <hr class="featurette-divider" />
 
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            And lastly, this one. <span class="text-muted">Checkmate.</span>
+          </h2>
+          <p class="lead">
+            And yes, this is the last block of representative placeholder
+            content. Again, not really intended to be actually read, simply here
+            to give you a better view of what this would look like with some
+            actual content. Your content.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
 
+      <hr class="featurette-divider" />
 
+      <!-- /END THE FEATURETTES -->
+    </div>
 
-                                <div class="image"> <img src="img/1.jpg"> </div>
-                            </div>
-                            <div class="slider">
-                                <div class="legend"></div>
-                                <div class="content">
-                                    <div class="content-txt">
-                                        <h2>Lorem ipsum dolor</h2>
-                                        <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                    </div>
-                                </div>
+    <!-- talal ko -->
+    
 
-
-
-                                <div class="image"> <img src="img/2.jpg"> </div>
-                            </div>
-                            <div class="slider">
-                                <div class="legend"></div>
-                                <div class="content">
-                                    <div class="content-txt">
-                                        <h2>Lorem ipsum dolor</h2>
-                                        <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                    </div>
-                                </div>
-                                <div class="image"> <img src="img/3.jpg"> </div>
-                            </div>
-                            <div class="slider">
-                                <div class="legend"></div>
-                                <div class="content">
-                                    <div class="content-txt">
-                                        <h2>Lorem ipsum dolor</h2>
-                                        <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
-                                    </div>
-                                </div>
-                                <div class="image"> <img src="img/4.jpg"> </div>
-                            </div>
-
-
-
-                        </div>
-
-
-                        <div class="switch">
-                            <ul>
-                                <li>
-                                    <div class="on"></div>
-                                </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-    </body>
-
-
-
-
-
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
