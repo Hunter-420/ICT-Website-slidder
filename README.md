@@ -1,2 +1,0 @@
-# ICT-Website-slidder
- 
